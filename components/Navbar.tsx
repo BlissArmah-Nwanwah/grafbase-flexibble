@@ -14,11 +14,11 @@ const Navbar = async () => {
   return (
     <nav className='flexBetween navbar'>
       <div className='flex-1 flexStart gap-10'>
-        <Link href='/'>
+        <Link className="w-[116px] h-[43px] relative" href='/'>
           <Image
             src='/logo.svg'
-            width={116}
-            height={43}
+            
+            fill
             alt='logo'
           />
         </Link>
